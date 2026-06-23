@@ -2,6 +2,7 @@ import React from 'react'
 import {HomeCard, Abt, Contact, Projects} from './HomeCard'
 import AbtImg from "../assets/abt.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCalendarAlt, faUsers, faTrophy, faFlask } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faXTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 import '../styles/Home.css';
@@ -21,11 +22,38 @@ const Home = () => {
           <Abt></Abt>
         </section>
 
-      <div class='break'>
-          <div className='bc'></div>
-          <div className='bc'></div>
-          <div className='bc'></div>
-          <div className='bc'></div>
+      <div className="break">
+        <div className="break-card">
+          <div className="break-card-icon">
+            <FontAwesomeIcon icon={faCalendarAlt} />
+          </div>
+          <div className="break-card-value">20 +</div>
+          <div className="break-card-label">Years of Experience</div>
+        </div>
+
+        <div className="break-card">
+          <div className="break-card-icon">
+            <FontAwesomeIcon icon={faUsers} />
+          </div>
+          <div className="break-card-value">100 +</div>
+          <div className="break-card-label">Client</div>
+        </div>
+
+        <div className="break-card">
+          <div className="break-card-icon">
+            <FontAwesomeIcon icon={faTrophy} />
+          </div>
+          <div className="break-card-value">100 +</div>
+          <div className="break-card-label">Brands</div>
+        </div>
+
+        <div className="break-card">
+          <div className="break-card-icon">
+            <FontAwesomeIcon icon={faFlask} />
+          </div>
+          <div className="break-card-value">10 K+</div>
+          <div className="break-card-label">Products</div>
+        </div>
       </div>
 
 
