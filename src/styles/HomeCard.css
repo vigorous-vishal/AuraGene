@@ -40,35 +40,35 @@
 }
 
 .book-1{
-   background-image: url("../assets/c1.jpg");
+   background-image: url("../assets/serviceGallery/c1.jpg");
 }
 .book-2{
-   background-image: url("../assets/c2.jpg");
+   background-image: url("../assets/serviceGallery/c2.jpg");
 }
 .book-3{
-   background-image: url("../assets/c1.jpg");
+   background-image: url("../assets/serviceGallery/c3.jpg");
 }
 .book-4{
-   background-image: url("../assets/c1.jpg");
+   background-image: url("../assets/serviceGallery/c4.jpg");
 }
 .book-5{
-   background-image: url("../assets/c1.jpg");
+   background-image: url("../assets/serviceGallery/c5.jpg");
 }
 .book-6{
-   background-image: url("../assets/c1.jpg");
+   background-image: url("../assets/serviceGallery/c6.jpg");
 }
 .book-7{
-   background-image: url("../assets/c1.jpg");
+   background-image: url("../assets/serviceGallery/c7.jpg");
 }
 .book-8{
-   background-image: url("../assets/c1.jpg");
+   background-image: url("../assets/serviceGallery/c8.jpg");
 }
 
 
 
 [class^="book"]::after {
     content: counter(book-counter);
-  background-color: rgb(164, 124, 124);
+  background-color: cyan;
   height: 25%;
   width: 26%;
   border-radius: 100%;
@@ -82,11 +82,30 @@
   display: flex;
   align-items: center;
   justify-content: center;   
-  transition: all 0.4s ease;     /* sits above dust */
+  transition: all 0.4s ease; 
+  font-size: large;
+  font-weight: bold;  /* sits above dust */
 }
 
 
-
+[class^="book"]:hover:after {
+    content: counter(book-counter);
+  background-color: cyan;
+  height: 100%;
+  width: 104%;
+  border-radius: 100%;
+  position: absolute;   /* allow overlap */           /* adjust position */
+  z-index: 2; 
+  top: 49.5%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;   
+  transition: all 0.4s ease; 
+  font-size: large;
+  font-weight: bold; 
+   /* sits above dust */
+}
 
 [class^="dust"] {
   background-color: rgb(0, 17, 48);
