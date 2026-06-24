@@ -27,23 +27,23 @@ const Home = () => {
           <div className="break-card-icon">
             <FontAwesomeIcon icon={faCalendarAlt} />
           </div>
-          <div className="break-card-value">20 +</div>
-          <div className="break-card-label">Years of Experience</div>
+          <div className="break-card-value">2+</div>
+          <div className="break-card-label">Experience</div>
         </div>
 
         <div className="break-card">
           <div className="break-card-icon">
             <FontAwesomeIcon icon={faUsers} />
           </div>
-          <div className="break-card-value">100 +</div>
-          <div className="break-card-label">Client</div>
+          <div className="break-card-value">20+</div>
+          <div className="break-card-label">Clients</div>
         </div>
 
         <div className="break-card">
           <div className="break-card-icon">
             <FontAwesomeIcon icon={faTrophy} />
           </div>
-          <div className="break-card-value">100 +</div>
+          <div className="break-card-value">10+</div>
           <div className="break-card-label">Brands</div>
         </div>
 
@@ -51,7 +51,7 @@ const Home = () => {
           <div className="break-card-icon">
             <FontAwesomeIcon icon={faFlask} />
           </div>
-          <div className="break-card-value">10 K+</div>
+          <div className="break-card-value">10+</div>
           <div className="break-card-label">Products</div>
         </div>
       </div>
