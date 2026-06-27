@@ -160,7 +160,7 @@ const Home = () => {
           
           <h1 style={{fontFamily:"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"}}>OUR SERVICES</h1>
           <br />
-          <p style={{fontSize:"large"}}>We are offering a variety of services for your needs and convenient</p>
+          <p style={{fontSize:"large", textAlign: "center", padding:"10px",fontWeight:"bold"}}>We are offering a variety of services for your needs and convenient</p>
           <br />
           <br />
          

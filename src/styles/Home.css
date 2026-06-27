@@ -155,7 +155,7 @@ section > h1{
 
 .break{
   width: 100%;
-  min-height: 320px;
+  height: 250px;
   background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(0, 225, 255, 1));
   position: relative;
   display: flex;
