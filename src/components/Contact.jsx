@@ -38,14 +38,9 @@ const ContactFunc = () => {
       justifyContent:"center"
     }}>
     <div style={{width:"100%", marginTop:"8%", display: "flex", flexDirection: "column", gap: "var(--section-spacing)"}}>
-      <div id="contact" style={{
-        justifyContent:"center",
-        display:"flex",
-        flexWrap: "wrap",
-        margin: "0 auto"
-      }}>
-        <Contact></Contact>
-      </div>
+      
+        <center><Contact></Contact></center>
+      
 
       {/* Contact Info Cards */}
       

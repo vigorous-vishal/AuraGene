@@ -19,7 +19,7 @@ const AboutFunc = () => {
       </div>
 </div>
       {/* Expertise Section */}
-      <div className="about-section alternate" >
+      <div className="about-section alternate">
         <h2>Our Core Expertise</h2>
         <div className="expertise-grid">
           <div className="expertise-card">

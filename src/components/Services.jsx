@@ -163,7 +163,8 @@ const ServiesFunc = () => {
     }}>
           <HomeCard></HomeCard>
         </div>
-        
+        <br />
+        <br />
 
         {/* Extended Services Section */}
         <div className="extended-services">
