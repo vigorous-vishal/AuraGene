@@ -121,33 +121,35 @@
 
 
 
-.about-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-wrapper {
+  width: 100%;
+  display: flex; 
+  flex-wrap: wrap;      /* row layout */
+  justify-content: space-between; /* push text left, image right */
+  align-items: center;
 }
 
-.about-content{
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    align-items: center;
-    justify-content: space-between;
+.about-content {
+  flex-basis: 100px;
+  flex: 1;                   /* take available space */
+  display: flex;
+  flex-direction: column;    /* stack text vertically */
+  gap: 20px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
 }
 
 .about-text{
     flex: 1;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .about-tag{
     width: fit-content;
     padding: 8px 18px;
-    border: 1px solid cyan;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 50px;
-    color: cyan;
+    color: rgb(0, 0, 0);
     font-size: 0.9rem;
     margin-bottom: 20px;
     box-shadow: 0 0 15px rgba(0,255,255,0.4);
@@ -157,53 +159,59 @@
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 25px;
+    color: black;
 }
 
 .about-text h1 span{
     color: cyan;
-    text-shadow: 0 0 20px rgba(0,255,255,0.7);
+    text-shadow: 1px 1px 3px rgba(0,255,255,0.7);
 }
 
 .about-text p{
     line-height: 1.8;
-    color: rgb(220,220,220);
+    color: rgb(0, 0, 0);
     margin-bottom: 18px;
     font-size: medium;
 }
 
-.about-image{
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-image {
+  flex: 1;                   /* take equal space as text */
+  display: flex;
+  justify-content: center;   /* center the rotating card */
+  align-items: center;
+  position: relative;
+  height: 40px;
+  transform-style: preserve-3d;
+  animation: spinRing 8s linear infinite;
 }
 
-.image-placeholder{
-    width: 450px;
-    height: 450px;
-
-    border: 2px solid cyan;
-    border-radius: 25px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    color: cyan;
-    font-size: 1.5rem;
-    text-align: center;
-
-    box-shadow:
-    0 0 20px rgba(0,255,255,0.4),
-    inset 0 0 20px rgba(0,255,255,0.2);
-
-    background:
-    linear-gradient(
-        135deg,
-        rgba(0,255,255,0.08),
-        rgba(0,0,0,0.1)
-    );
+.card{
+    position: absolute;
+    width: 60%;
+    height: 600px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
+
+.rc1{
+    background: url("../assets/abt2.png") center/cover;
+    transform: translateZ(120px); 
+}
+
+.rc2{
+    background: url("../assets/abt1.png") center/cover;
+    transform: rotateY(180deg) translateZ(120px); 
+}
+
+@keyframes spinRing {
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+
 
 .about-stats{
     display: flex;
@@ -215,7 +223,7 @@
     width: 130px;
     height: 100px;
 
-    border: 1px solid cyan;
+    border: 1px solid rgb(0, 0, 0);
     border-radius: 15px;
 
     display: flex;

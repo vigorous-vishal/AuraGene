@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import {HomeCard, Abt, Contact, Projects} from './HomeCard'
-import AbtImg from "../assets/abt.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt, faUsers, faTrophy, faFlask, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faXTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -134,7 +133,7 @@ const Home = () => {
           <br />
           <br />
          
-          <center><h1>About Us</h1></center>
+          <center><h1 style={{color:"black",fontFamily:"Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif"}}>ABOUT US</h1></center>
           <br />
           <Abt></Abt>
         </section>

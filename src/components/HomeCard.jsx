@@ -102,66 +102,63 @@ const HomeCard = () => {
 const Abt = () => {
   return (
     <div className="about-wrapper">
-
       <div className="about-content">
-
         <div className="about-text">
+                  <div className="about-tag">
+                    WHO WE ARE
+                  </div>
 
-          <div className="about-tag">
-            WHO WE ARE
-          </div>
+                  <h1>
+                    Building <span>Digital Solutions</span> For Modern Businesses
+                  </h1>
 
-          <h1>
-            Building <span>Digital Solutions</span> For Modern Businesses
-          </h1>
+                  <p>
+                    At AuraGene Technologies, we specialize in building innovative
+                    digital solutions that help businesses grow in an increasingly
+                    connected world. Our team is passionate about transforming ideas
+                    into powerful web applications, software systems, and modern
+                    digital experiences.
+                  </p>
 
-          <p>
-            At AuraGene Technologies, we specialize in building innovative
-            digital solutions that help businesses grow in an increasingly
-            connected world. Our team is passionate about transforming ideas
-            into powerful web applications, software systems, and modern
-            digital experiences.
-          </p>
+                  <p>
+                    From custom website development and enterprise software solutions
+                    to cloud-based applications and business automation tools, we
+                    deliver technology that is scalable, secure, and designed for
+                    long-term success.
+                  </p>
 
-          <p>
-            From custom website development and enterprise software solutions
-            to cloud-based applications and business automation tools, we
-            deliver technology that is scalable, secure, and designed for
-            long-term success.
-          </p>
-
-          <p>
-            We combine creativity, technical expertise, and industry best
-            practices to create products that not only look exceptional but
-            also perform efficiently.
-          </p>
+                  <p>
+                    We combine creativity, technical expertise, and industry best
+                    practices to create products that not only look exceptional but
+                    also perform efficiently.
+                  </p>
 
           <div className="about-stats">
 
             <div className="stat-card">
               <h2>20+</h2>
-              <span>Projects</span>
+              <span style={{color:'black'}}>Projects</span>
             </div>
 
             <div className="stat-card">
               <h2>15+</h2>
-              <span>Clients</span>
+              <span style={{color:'black'}}>Clients</span>
             </div>
 
             <div className="stat-card">
               <h2>100%</h2>
-              <span>Support</span>
+              <span style={{color:'black'}}>Support</span>
             </div>
 
           </div>
 
         </div>
+      </div>
 
-        <div className="about-image">
-
-          
-
-        </div>
+      <div className="about-image">
+        
+            <div class="card rc1"></div>
+            <div class="card rc2"></div>                             
 
       </div>
 

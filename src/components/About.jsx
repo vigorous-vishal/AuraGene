@@ -14,23 +14,12 @@ const AboutFunc = () => {
         canonical="https://auragene.vercel.app/about"
       />
 
-      <div
-        style={{
-          marginTop: "4%",
-          backgroundColor: "rgb(0, 0, 32, 1)",
-        }}
-      >
-        <div
-          id="about"
-          style={{
-            backgroundColor: "rgb(0,0,32)",
-            backgroundPosition: "500px",
-            padding: "30px",
-          }}
-        >
-          <Abt />
-        </div>
-      </div>
+      
+       <div style={{marginTop:"4%"}}>
+        <Abt />
+       </div>
+          
+    
 
       {/* Expertise Section */}
       <div className="about-section alternate">
