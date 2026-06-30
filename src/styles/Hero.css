@@ -33,6 +33,10 @@
   background-size: contain;
 }
 
+.hero-icon:hover{
+  transform: scale(1.10);
+}
+
 .hero-name {
   font-size: 28px;
   font-family: serif;
@@ -51,15 +55,22 @@
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
+  width: 90px;
+  height: 30px;
   transition: 0.3s ease;
   background-color: transparent;
   font-family:Georgia, 'Times New Roman', Times, serif;
   border: none;
+  border-radius: 100px;
 }
 
 .headline button:hover {
-  color: cyan;
-  transform: scale(1.2);
+  transform: scale(1.1);
+  border: 1px solid cyan;
+  background-color: cyan;
+  color: #000;
+  box-shadow: 0 0 20px 0px cyan;
+  
 }
 
 /* ==========================
