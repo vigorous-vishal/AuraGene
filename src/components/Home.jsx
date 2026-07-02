@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import {HomeCard, Abt, Contact, Projects} from './HomeCard'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCalendarAlt, faUsers, faTrophy, faFlask, faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faXTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faXTwitter, faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 import SEO from "./SEO";
 
 
@@ -228,8 +228,8 @@ const Home = () => {
       <a href="https://facebook.com/yourprofile" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
-      <a href="https://x.com/yourprofile" target="_blank" rel="noopener noreferrer">
-        <FontAwesomeIcon icon={faXTwitter} size="2x" />
+      <a href="https://github.com/auragenetech" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faGithub} size="2x" />
       </a>
       <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
